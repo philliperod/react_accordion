@@ -1,7 +1,15 @@
 import React, { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai';
-const Question = () => {
-  return <h2>questions component</h2>;
+const Question = ({ title, info }) => {
+  return (
+    <article className="question">
+      <header>
+        <h4>{title}</h4>
+        <button className="btn">icon</button>
+      </header>
+      <p>{info}</p>
+    </article>
+  );
 };
 
 export default Question;
