@@ -26,3 +26,6 @@ export default App;
 // 2) within the map() method, returned the Question component that has a key attribute of the prop.id value and used the spread operator to expand each prop thats found in the data component
 // 3) now in the Question components, we can access all of the properties from the data component
 // 4) in the Question components, we'll use destructured in the parameters of the component to access those properties - title and info
+// 5) in Question component, create an useState hook to toggle an on/off state with a boolean default value
+// 6) the hook will be used by the icon button to show the <p> in the question containers
+// 7) create a return that has a condition that says if showInfo is true then display info in <p>
